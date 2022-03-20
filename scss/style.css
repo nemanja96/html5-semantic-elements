@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Semantic Elements */
+#semantic-elements {
+  margin: 50px auto;
+}
+
+#semantic-elements h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#semantic-elements ul {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+#semantic-elements ul li {
+  display: inline-block;
+  width: 24%;
+  height: 50px;
+  line-height: 50px;
+  margin: 0.2%;
+  text-align: center;
+  border: 2px solid #000;
+  cursor: pointer;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+#semantic-elements ul li:hover {
+  background: silver;
+}
+
+#semantic-elements p {
+  margin-top: 10px;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Semantic Elements End */
+#semantic-html {
+  width: calc(100% - (4px + 10%));
+  border: 2px solid black;
+  margin: 5%;
+}
+
+/* Header */
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+}
+
+header img {
+  width: 40px;
+  height: 40px;
+  margin: 10px 0 10px 20px;
+}
+
+header nav {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style-type: none;
+  outline: 2px solid black;
+}
+
+header nav li {
+  display: inline-block;
+  font-size: 1.2em;
+  color: #000;
+  padding: 20px;
+}
+
+/* Header End */
+/* Main */
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  outline: 2px solid black;
+  padding: 20px;
+  /* Aside */
+}
+
+main section {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px solid black;
+}
+
+main section h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+main section article {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 40px 20px;
+  padding: 20px;
+  outline: 2px solid black;
+}
+
+main section article h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #000;
+  font-weight: 100;
+}
+
+main section article figure {
+  outline: 2px solid black;
+  padding: 20px;
+}
+
+main section article figure img {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main section article figure figcaption {
+  font-style: italic;
+  font-size: 0.7em;
+  outline: 2px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+main section article p {
+  padding: 20px 0;
+  color: #000;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+main section article p mark {
+  background: #ddd;
+}
+
+main section article details {
+  outline: 2px solid black;
+  padding: 10px;
+  cursor: pointer;
+}
+
+main section article details summary {
+  outline: 2px solid black;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+main section article details summary::-webkit-details-marker {
+  display: none;
+}
+
+main aside {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-top: 40px;
+}
+
+main aside h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 100;
+  font-size: 1.2em;
+}
+
+main aside ul {
+  list-style: none;
+}
+
+main aside ul li {
+  text-align: center;
+  padding: 5px 0;
+}
+
+main aside ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1em;
+}
+
+/* Main End */
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1em;
+}
+
+footer p a {
+  color: #000;
+}
+
+/* Footer End */
+/* CLASS FOR JAVASCRIPT */
+.change-color {
+  background: orange;
+  -webkit-transition: 0.5s background;
+  transition: 0.5s background;
+}
+/*# sourceMappingURL=style.css.map */
